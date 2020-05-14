@@ -1,4 +1,4 @@
-package com.axelsmidt.javaexercises.chapter2;
+package com.axelsmidt.javarefresher.chapter2;
 
 import java.util.Scanner;
 
