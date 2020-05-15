@@ -6,15 +6,23 @@ public class Addition {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int number1;
-        int number2;
+        int number1 = 0;
+        int number2 = 0;
         int sum;
 
         System.out.print("Enter first integer: "); // Prompt
-        number1 = input.nextInt();
+        try {
+            number1 = input.nextInt();
+        } catch (Exception e) {
+            System.out.println("You must enter an integer!");
+        }
 
         System.out.print("Enter second integer: "); // Prompt
-        number2 = input.nextInt();
+        try {
+            number2 = input.nextInt();
+        } catch (Exception e) {
+            System.out.println("You must enter an integer!");
+        }
 
         sum = number1 + number2; // Add the numbers, then store the total in sum
 
