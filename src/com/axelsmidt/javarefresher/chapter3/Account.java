@@ -22,10 +22,10 @@ public class Account {
     }
 
     public void deposit(double amount) {
-        if (amount > 0.0) balance =+ amount;
+        if (amount > 0.0) balance += amount;
     }
 
     public void withdraw(double amount) {
-        if (amount > 0.0) balance =- amount;
+        if (amount > 0.0) balance -= amount;
     }
 } // end class Account
