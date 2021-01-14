@@ -16,7 +16,7 @@ public class ArrayListCollection {
 
         // Display the colors in the list
         for (int i = 0; i < items.size(); i++)
-            System.out.printf(" %s",items.get(i));
+            System.out.printf(" %s", items.get(i));
 
         // Display colors using enhanced for in the display method
         display(items, "%nDisplay list contents with enhanced for statement:");
